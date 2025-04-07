@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "QFS Debug",
+      "type": "go",
+      "request": "launch",
+      "mode": "auto",
+      "program": "app.go",
+      "asRoot": true,
+      "env": {
+        "config": "/etc/qfs/config.toml"
+      }
+    }
+  ]
+}
